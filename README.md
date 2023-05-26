@@ -1,4 +1,4 @@
-# COPD-and-Air-Quality
+# Predictive Analysis of Policial Party using COVID-19 Data
 
 ## Project Details
 
