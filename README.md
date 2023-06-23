@@ -1,16 +1,29 @@
 # Predictive Analysis of COPD and Air Quality
 
-## Project Details
+#### Disclaimer:
+Jupyter Notebook uploaded in this repo may occasionally show render failure due to github issues. If it happens, please refer to the link below to access Jupyter Notebook via nbviewer.
+[Link to Jupyter Notebook](https://nbviewer.org/github/raachelssss/COPD-and-Air-Quality/blob/main/Predictive%20Analysis%20of%20COPD%20and%20Low%20Air%20Quality.ipynb)
 
-### Data Overview: 
+### Introduction
+- This project aims to predict the onset of Chronic Obstructive Pulmonary Disease (COPD) using the following features:
+  - Air Quality: research suggests that poor air quality increases the risk of COPD
+  - Race: research suggests that people of color are more exposed to poor air quality [(Link to Article)](https://www.nytimes.com/2021/04/28/climate/air-pollution-minorities.html)
+  - Smoking: research suggests that smoking population is at more risk than non-smoking population
+- ML/AI Techniques Used:
+  - Causal Inference (Outcome Regression, Inverse Propensity Weighting)
+  - Random Forest Model
+  - Frequentist & Bayesian General Linear Model (GLM) 
+
+
+### EDA:
+
+#### Data Overview: 
 - U.S. Chronic Disease Indicators: Chronic Obstructive Pulmonary Disease
 - CDC: Daily Census-Tract PM 2.5 Concentration (allows checking of air pollution levels)
 - CDC: Daily Census-Tract Ozone Concentrations
 - State-level Population Density (2010-2019)
 - County-level Smoking Prevalence Census
-
-### EDA:
-
+#### Data Visualization: 
 - Relationship between smoking population and COPD incidence
 - Comparing smoking population by race and gender with COPD patients
 <img width="806" alt="image" src="https://github.com/raachelssss/COPD-and-Air-Quality/assets/88609253/e6879d82-ab26-4311-a97a-15f9ae3ce919">
@@ -68,6 +81,10 @@ Firstly, Bayesian GLM and Frequentist GLM models were adopted and trained.
 - It is regrettable that the performance of the model did not improve significantly even if different variables were adopted instead of race.
 - The model showed an accuracy of around 99% on the train set and 82% on the test
 
+
+### Conclusion
+- d
+- 
 
 ### 🛠️ Link to Final Report 
 [Written Report](https://drive.google.com/file/d/1BsE3aeGkDo0m1LDiIxZam5Y_y11_iBsZ/view?usp=sharing)
