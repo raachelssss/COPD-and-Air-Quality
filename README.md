@@ -2,7 +2,7 @@
 
 #### Disclaimer:
 Jupyter Notebook uploaded in this repo may occasionally show **render failure** due to github issues. If it happens, please refer to the link below to access Jupyter Notebook via nbviewer.
-[**Link to Jupyter Notebook**](https://nbviewer.org/github/raachelssss/COPD-and-Air-Quality/blob/main/Predictive%20Analysis%20of%20COPD%20and%20Low%20Air%20Quality.ipynb)
+[**Link to Jupyter Notebook**](https://nbviewer.org/github/raachelssss/COPD-and-Air-Quality/blob/main/COPD_and_Low_Air_Quality.ipynb)
 
 ### Introduction
 - This project aims to predict the onset of Chronic Obstructive Pulmonary Disease (COPD) using the following features:
