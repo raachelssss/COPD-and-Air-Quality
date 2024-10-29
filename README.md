@@ -5,15 +5,16 @@ Jupyter Notebook uploaded in this repo may occasionally show **render failure** 
 [**Link to Jupyter Notebook**](https://nbviewer.org/github/raachelssss/COPD-and-Air-Quality/blob/main/COPD_and_Low_Air_Quality.ipynb)
 
 ### Introduction
-- This project aims to predict the onset of Chronic Obstructive Pulmonary Disease (COPD) using the following features:
-  - Air Quality: research suggests that poor air quality increases the risk of COPD
-  - Race: research suggests that people of color are more exposed to poor air quality [(Link to Article)](https://www.nytimes.com/2021/04/28/climate/air-pollution-minorities.html)
-  - Smoking: research suggests that smoking population is at more risk than non-smoking population
+- This project aims to predict the onset of Chronic Obstructive Pulmonary Disease (COPD) by **analyzing risk factors that disproportionately affect underserved populations.** Key features include:
+  - **Air Quality**: Research shows that poor air quality significantly increases the risk of COPD, with underserved communities often facing higher exposure.
+  - **Race**: Data indicates that people of color are more likely to live in areas with poorer air quality [(Link to Article)](https://www.nytimes.com/2021/04/28/climate/air-pollution-minorities.html)
+  - **Smoking**: Research suggests that smoking population is at more risk than non-smoking population
 - ML/AI Techniques Used:
   - Causal Inference (Outcome Regression, Inverse Propensity Weighting)
   - Random Forest Model
   - Frequentist & Bayesian General Linear Model (GLM) 
 
+**By exploring these variables, this project seeks to contribute insights that could inform targeted interventions, particularly for those facing health inequities and limited access to quality care.**
 
 ### EDA:
 
